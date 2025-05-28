@@ -1,8 +1,9 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
+import EmailSection from "./components/EmailSection";
 
 export default function Home() {
   return (
@@ -17,11 +18,20 @@ export default function Home() {
       <div className="relative z-20">
         <Navbar />
         <div className="container mt-24 mx-auto px-6 md:px-12 py-4 space-y-24">
-          <HeroSection />
-          <AboutSection />
-          <ProjectsSection />
+          <section id="hero">
+            <HeroSection />
+          </section>
+          <section id="about">
+            <AboutSection />
+          </section>
+          <section id="projects">
+            <ProjectsSection />
+          </section>
+          <section id="contact">
+            <EmailSection />
+          </section>
         </div>
       </div>
     </main>
-  )
+  );
 }

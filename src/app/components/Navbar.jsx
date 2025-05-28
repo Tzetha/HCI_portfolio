@@ -16,15 +16,15 @@ export const Navbar = () => {
     const [navbarOpen, setNavbarOpen] = useState(false);
      
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-400 h-30">
+    <nav className="fixed top-0 left-0 right-0 z-10 bg-gradient-to-r from-blue-600 via-indigo-500 to-purple-400 h-25">
      <div className="flex items-center justify-between mx-auto px-4 h-full">
         <Link href={'/'} className="flex items-center"> 
             <Image
                 src="/images/logo.png" // Replace with your logo path
                 alt="Logo"
-                width={200} // Adjust width as needed
-                height={250} // Adjust height as needed
-                className="w-[200px] h-[250px] md:w-44 lg:w-48 object-contain mb-10"
+                width={160} // Adjust width as needed
+                height={100} // Adjust height as needed
+                className="w-[160px] h-[100px] md:w-44 lg:w-48 object-contain"
             />
         </Link>
         <div className="mobile-menu block md:hidden">
