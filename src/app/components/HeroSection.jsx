@@ -1,7 +1,10 @@
 "use client";
 import React from 'react';
 import Image from 'next/image';
+<<<<<<< HEAD
 import Link from 'next/link';
+=======
+>>>>>>> 2c9fcdfab3f54911ae4caf569433849229d5ddb1
 import { TypeAnimation } from 'react-type-animation';
 
 export const HeroSection = () => {
@@ -16,7 +19,11 @@ export const HeroSection = () => {
             <br></br>
             <TypeAnimation
         sequence={[
+<<<<<<< HEAD
             'Ethan Gabriel Soncio',1000,
+=======
+            'LMNTRIX',1000,
+>>>>>>> 2c9fcdfab3f54911ae4caf569433849229d5ddb1
             'a Game Developer',1000,
             'a Python Programmer',1000,
         ]}
@@ -26,6 +33,7 @@ export const HeroSection = () => {
         /> 
         </h1>
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6"> 
+<<<<<<< HEAD
             I am a student of West Visayas State University currently in my 4th year taking Bachelor of Science in Computer Science.
         </p>
         <div>
@@ -46,6 +54,18 @@ export const HeroSection = () => {
         </Link>
       </div>
       
+=======
+            I am a student of West Visayas State University currently in my 3rd year taking Bachelor of Science in Computer Science.
+        </p>
+        <div>
+            <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 mb-4 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-800 hover:bg-slate-200 text-white">
+                Hire Now
+            </button>
+            <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-300 via-blue-500 to-blue-800 hover:bg-slate-800 text-white">
+                <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">About Me</span>
+            </button>
+        </div>
+>>>>>>> 2c9fcdfab3f54911ae4caf569433849229d5ddb1
       </div>
       <div className="col-span-5 place-self-center mt-4 lg:mt-0">
        <div className="rounded-full bg-gradient-to-b from-blue-600 via-indigo-500 to-purple-400 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">

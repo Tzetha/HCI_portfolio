@@ -1,9 +1,15 @@
 import Image from "next/image";
 import HeroSection from "./components/HeroSection";
+<<<<<<< HEAD
 import Navbar from "./components/Navbar";
 import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
+=======
+import Navbar from "./components/Navbar"
+import AboutSection from "./components/AboutSection";
+import ProjectsSection from "./components/ProjectsSection";
+>>>>>>> 2c9fcdfab3f54911ae4caf569433849229d5ddb1
 
 export default function Home() {
   return (
@@ -18,6 +24,7 @@ export default function Home() {
       <div className="relative z-20">
         <Navbar />
         <div className="container mt-24 mx-auto px-6 md:px-12 py-4 space-y-24">
+<<<<<<< HEAD
           <section id="hero">
             <HeroSection />
           </section>
@@ -34,4 +41,13 @@ export default function Home() {
       </div>
     </main>
   );
+=======
+          <HeroSection />
+          <AboutSection />
+          <ProjectsSection />
+        </div>
+      </div>
+    </main>
+  )
+>>>>>>> 2c9fcdfab3f54911ae4caf569433849229d5ddb1
 }
