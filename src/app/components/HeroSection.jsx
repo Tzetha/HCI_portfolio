@@ -16,7 +16,7 @@ export const HeroSection = () => {
             <br></br>
             <TypeAnimation
         sequence={[
-            'LMNTRIX',1000,
+            'Ethan Gabriel Soncio',1000,
             'a Game Developer',1000,
             'a Python Programmer',1000,
         ]}
@@ -26,7 +26,7 @@ export const HeroSection = () => {
         /> 
         </h1>
         <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6"> 
-            I am a student of West Visayas State University currently in my 3rd year taking Bachelor of Science in Computer Science.
+            I am a student of West Visayas State University currently in my 4th year taking Bachelor of Science in Computer Science.
         </p>
         <div>
       {/* "Contact Me" Button linking to #contact */}
